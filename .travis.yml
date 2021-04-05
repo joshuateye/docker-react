@@ -18,6 +18,6 @@ deploy:
   # bucket_path: "yehoshua305-react"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
+  access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key:
-    secure: $AWS_SECRET_KEY
+    secure: $AWS_SECRET_ACCESS_KEY
