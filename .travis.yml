@@ -15,7 +15,7 @@ deploy:
   app: "yehoshua305-react"
   env: "Yehoshua305react-env-1"
   bucket_name: "elasticbeanstalk-eu-central-1-327071640737"
-  # bucket_path: "yehoshua305-react"
+  bucket_path: "yehoshua305-react"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY_ID
